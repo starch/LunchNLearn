@@ -1,0 +1,19 @@
+{
+  "name": "lunchnlearn",
+  "version": "1.0.0",
+  "description": "An app that allows ethode members to submit and vote on Lunch & Learn Ideas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerSchoen/LunchNLearn.git"
+  },
+  "author": "Tyler Schoen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerSchoen/LunchNLearn/issues"
+  },
+  "homepage": "https://github.com/TylerSchoen/LunchNLearn#readme"
+}
