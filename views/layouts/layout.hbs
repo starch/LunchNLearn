@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <!--STYLES END-->
+
+    <!--SCRIPTS-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+    <!--SCRIPTS END-->
+  </head>
+
+  <body>
+    {{> navbar}}
+
+    <div class="container">
+      {{{body}}}
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <footer>
+      <p>ethode - Lunch & Learn</p>
+      </footer>
+    </div>
+  </body>
+</html>
